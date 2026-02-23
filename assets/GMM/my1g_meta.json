@@ -1,0 +1,21 @@
+{
+  "prefix": "my1g",
+  "D": 4,
+  "covariance_type": "full",
+  "feature_order": [
+    "angle",
+    "error",
+    "speed",
+    "force"
+  ],
+  "use_scaler": true,
+  "has_feature_weight": true,
+  "files": {
+    "mu": "my1g_mu.csv",
+    "Sigma": "my1g_Sigma.csv",
+    "scaler_mean": "my1g_scaler_mean.csv",
+    "scaler_scale": "my1g_scaler_scale.csv",
+    "feature_weight": "my1g_feature_weight.csv"
+  },
+  "note": "Params are in processed space: x=(x-mean)/scale then x*=sqrt(feature_weight)."
+}

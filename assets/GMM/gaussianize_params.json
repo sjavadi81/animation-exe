@@ -1,0 +1,34 @@
+{
+  "version": "1.0",
+  "eps": 1e-06,
+  "columns": {
+    "error": {
+      "dist": "weibull_min",
+      "fitted_params": {
+        "c": 1.0369219366211055,
+        "loc": 0.0,
+        "scale": 0.005632139240190769
+      },
+      "clip_lower": 0.0,
+      "fit_kwargs": {
+        "floc": 0.0
+      },
+      "positive_for_lognorm": false,
+      "positive_epsilon": 1e-10,
+      "warn_on_lognorm_clip": true
+    },
+    "force": {
+      "dist": "lognorm",
+      "fitted_params": {
+        "s": 0.6742417687824428,
+        "loc": 0.10190112863280841,
+        "scale": 2.989468224043019
+      },
+      "clip_lower": null,
+      "fit_kwargs": {},
+      "positive_for_lognorm": true,
+      "positive_epsilon": 1e-10,
+      "warn_on_lognorm_clip": true
+    }
+  }
+}
